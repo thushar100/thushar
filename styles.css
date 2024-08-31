@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+.project-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project {
+    flex: 1 1 30%;
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.progress-bar {
+    background: #4caf50;
+    height: 20px;
+    color: white;
+    text-align: center;
+    line-height: 20px;
+    transition: width 0.5s;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+}
